@@ -1,6 +1,6 @@
 # Project Name
 
-Short description: A FastAPI backend for explaining and detailing github project with RESTful APIs, data validation, and async support.
+Short description: A FastAPI backend for explaining and detailing GitHub projects using AI with RESTful APIs, data validation, and async support.
 
 ## Table of Contents
 
@@ -17,20 +17,13 @@ Short description: A FastAPI backend for explaining and detailing github project
 
 - Built with FastAPI for high performance and async support
 - Pydantic models for data validation
-- Modular structure for scalability
-- Supports async database operations (e.g., SQLAlchemy / Tortoise ORM)
 - Automatic interactive API docs with Swagger UI and Redoc
 - CORS support for frontend integration
-- Easy unit testing setup
 
 ## Tech Stack
 
 - Python 3.11+
 - FastAPI
-- Uvicorn as ASGI server
-- SQLAlchemy / Tortoise ORM
-- PostgreSQL / MySQL / SQLite
-- Docker (optional)
 
 ## Installation
 
@@ -49,14 +42,7 @@ Short description: A FastAPI backend for explaining and detailing github project
 
     pip install -r requirements.txt
 
-## Configuration
 
-Create a `.env` file in the project root:
-
-    DATABASE_URL=postgresql://user:password@localhost:5432/dbname
-    SECRET_KEY=your-secret-key
-    DEBUG=True
-    ALLOWED_HOSTS=*
 
 ## Usage
 
@@ -80,7 +66,7 @@ FastAPI automatically generates interactive docs:
 
 1. Fork the repo
 2. Create your feature branch: git checkout -b feature/YourFeature
-3. Commit your changes: git commit -m 'Add some feature'
+3. Commit your changes: git commit -m 'Add some feature.'
 4. Push to the branch: git push origin feature/YourFeature
 5. Open a Pull Request
 
