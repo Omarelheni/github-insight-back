@@ -8,6 +8,10 @@ class ProjectInfoRequest(BaseModel):
     readme: str
     name: str
     description: str
-    stars: int
-    forks: int
-    watching: int
+    stars: str
+    forks: str
+    watching: str
+
+class FileExplinationRequest(BaseModel):
+    filename: str
+    content: str
